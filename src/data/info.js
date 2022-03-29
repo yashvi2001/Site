@@ -4,7 +4,7 @@ export default [
 
     content: [
       {
-        object: "Viruera",
+        object: "Virtuera",
         title: "Full Stack Intern",
         date: "05/2021 - 08/2021",
       },

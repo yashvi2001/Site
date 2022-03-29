@@ -1,10 +1,11 @@
 import React from "react";
 import Data from "../data/info.js";
+import { FaAngleRight } from "react-icons/fa";
 import "./sideCards.css";
 function SideCard() {
   return (
     <>
-      <div class="item2">
+      <div className="item2">
         <div className="sideCard">
           <div className="sideCard-header">
             <h3>
@@ -45,20 +46,20 @@ function SideCard() {
                           {content.date}
                         </a>
                       ) : (
-                        <button style={{ float: "right" }}>
-                          {" "}
+                        
+                         
                           <a
                             style={{
                               color: "grey",
-                              fontSize: "13px",
+                              fontSize: "18px",
                               textDecoration: "none",
                             }}
                             target="_blank"
                             href={content.link}
                           >
-                            View
+                            <FaAngleRight style={{float:"right"}} />
                           </a>
-                        </button>
+                        
                       )}
                     </p>
                   );
