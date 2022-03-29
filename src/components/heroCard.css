@@ -1,0 +1,100 @@
+.item3 {
+  grid-area: main;
+}
+.heroCard {
+  float: between;
+
+  height: 250px;
+  background-color: #fbd6d2;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: flex;
+  border: #fc997c solid 1px;
+}
+.helo {
+  background-color: #fff;
+  margin: 15px 5px 10px 5px;
+  text-align: center;
+  height: auto;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  color: #03045e;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.heroCard1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+
+  float: right;
+
+  background-color: #fdf6ec;
+  margin-top: 10px;
+}
+.Welcome {
+  color: #03045e;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.heroButton {
+  background-color: #fc997c;
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  width: auto;
+  cursor: pointer;
+  margin-left: 10px;
+  height: auto;
+  font-size: 15px;
+  border: none;
+}
+@media screen and (max-width: 900px) {
+  .item3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .heroCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: auto;
+  }
+  .heroCard1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fdf6ec;
+    margin-top: 10px;
+  }
+  .Image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  .heroButton {
+    background-color: #fc997c;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    width: auto;
+    cursor: pointer;
+    margin-left: 10px;
+    height: auto;
+    font-size: 15px;
+    border: none;
+  }
+}

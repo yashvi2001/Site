@@ -1,0 +1,87 @@
+.item2 {
+  grid-area: menu;
+}
+.sideCard {
+  width: auto;
+  height: auto;
+  background-color: #fbd6d2;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px 6px 10px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sideCard-header {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  font-size: 17px;
+  margin: 15px 10px 10px 15px;
+  background-color: #fff;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+@media screen and (max-width: 900px) {
+  .sideCard {
+    width: inherit;
+    height: inherit;
+
+    background-color: #fbd6d2;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px 6px 10px 6px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sideCard-header {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    width: inherit;
+    height: inherit;
+    font-size: 17px;
+    margin: 15px 10px 10px 15px;
+    background-color: #fff;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+}
+  
