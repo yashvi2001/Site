@@ -12,7 +12,7 @@
   display: flex;
   border: #fc997c solid 1px;
 }
-.helo {
+.details {
   background-color: #fff;
   margin: 15px 5px 10px 5px;
   text-align: center;
@@ -23,7 +23,7 @@
   color: #03045e;
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
-.heroCard1 {
+.detailContainer {
   display: flex;
   justify-content: space-evenly;
   width: 90%;
@@ -69,7 +69,7 @@
     width: 100%;
     height: auto;
   }
-  .heroCard1 {
+  .detailContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;

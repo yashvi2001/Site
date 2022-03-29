@@ -97,12 +97,12 @@ function HeroCard() {
           </div>
         </div>
         <div className="hero">
-          <div className="heroCard1">
-            <div className="helo">
+          <div className="detailContainer">
+            <div className="details">
               <p className="title">Languages</p>
               <Doughnut data={data} />
             </div>
-            <div className="helo">
+            <div className="details">
               <p className="title">Frameworks</p>
               <Bar options={options} data={data1} />
             </div>
